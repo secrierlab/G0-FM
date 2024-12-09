@@ -168,4 +168,5 @@ wandb/
 Data/raw/*
 Data/processed/*
 Data/pretrained_ckpts/*
-Output/*
+Data/steps/*
+Outputs/*
