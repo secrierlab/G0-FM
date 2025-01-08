@@ -4,6 +4,9 @@
 
 G0-LM is a foundation model to classify G0, slow and fast cycling states in single cell RNA-seq cancer data. This model has currently been trained on breast cancer only.
 
+![G0-LM classification pipeline and performance. a G0 arrest and proliferation state classification pipeline in scRNA-seq data. The first training phase involves binary classification training for each state separately using the Parameter-Efficient Fine-Tuning (PEFT) method. This allows the original pre-trained model’s feature space to better represent G0 arrest/proliferation. The final G0-LM model is obtained by fusing the three binary classification models for the individual states (G0 arrest, slow cycling and fast cycling). b Receiver operating characteristic (ROC) curves per cell cycle category displaying performances of G0-LM. c-d PCA (c) and UMAP (d) embedding spaces of the cell cycle categories.![image](https://github.com/user-attachments/assets/5469f770-f098-4741-a172-545266189062)
+](img/Extended_Data_Figure_10.pdf)
+
 Related publications:
 
 ## Repository Structure
